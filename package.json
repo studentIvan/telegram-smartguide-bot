@@ -1,14 +1,13 @@
 {
-  "name": "location-guide-bot",
+  "name": "telegram-smartguide-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A telegram bot that will turn your walk into a fascinating excursion. Recommended for St. Petersburg",
   "main": "index.mjs",
   "scripts": {
-    "start": "node -r dotenv/config index.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node -r dotenv/config index.mjs"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "https://github.com/studentIvan",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.5.0",
     "openai": "^4.93.0",
