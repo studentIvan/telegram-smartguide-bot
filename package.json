@@ -1,0 +1,17 @@
+{
+  "name": "location-guide-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node -r dotenv/config index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "openai": "^4.93.0",
+    "telegraf": "^4.16.3"
+  }
+}
