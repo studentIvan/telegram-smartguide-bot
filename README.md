@@ -61,8 +61,8 @@ For more details, refer to the [Yandex Geosuggest API documentation](https://yan
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/location-guide-bot.git
-    cd location-guide-bot
+    git clone https://github.com/studentIvan/telegram-smartguide-bot
+    cd telegram-smartguide-bot
     ```
 
 2. Install dependencies:
