@@ -7,10 +7,15 @@ Running example https://t.me/smgdbot (can be unavailable sometimes)
 ## How it works
 
 Bot listening for the telegram api "location" event both with "edited_message" event (for the location translation).
+
 First we should get the interesting places nearby. GPT is awful for this purpose.
+
 Yandex API helps in this case but it also has no ready functionality for sightseeing.
+
 A small "hack": we search in yandex geosuggest api for the hardcoded keywords instead like "достопримечательность" (sight).
+
 After we get the results, we filter them using gpt-4o-mini.
+
 Finally we ask gpt-4o to fulfill the answer.
 
 ## Prerequisites
